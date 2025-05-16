@@ -1,0 +1,28 @@
+# Funcionalidade principais:
+discord.py[voice]==2.3.2 # Pega a função 'voice' também caso queira fazer um bot que toque música
+python-dotenv==1.0.0
+asyncio==3.4.3
+
+# Web Server para o keep-alive
+Flask==2.3.3
+Werkzeug==2.3.7
+gunicorn==21.2.0
+
+# Abaixo estão algumas requisições que podem ser úteis para funcionalidades que você talvez queira adicionar ao bot futuramente.
+
+# Musica e voz
+PyNaCl==1.5.0 
+# ytdl-core==0.0.7 
+# yt-dlp==2023.10.13 
+# ffmpeg-python==0.2.0  
+# aiohttp==3.8.5  
+
+# Pesquisa web e análise dos dados
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Utilidades
+pillow==10.0.1 # Processamento de imagens
+pyjwt==2.8.0 
+ratelimit==2.2.1 
